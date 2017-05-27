@@ -1,0 +1,413 @@
+﻿
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+
+body {
+          font-family:'Open Sans', sans-serif;
+    font-size:14px;
+   
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', sans-serif;
+}
+
+
+.text-center {
+    text-align:center;
+}
+
+h2 {
+    line-height:50px;
+    color:#E91C1C;
+}
+h3 {
+    line-height:30px;
+    padding-bottom:20px;
+}
+h4 {
+   padding-top: 25px;
+line-height: 40px;
+padding-bottom: 0px;
+font-size: 22px;
+font-weight: 900;
+
+}
+
+p {
+    font-weight:300;
+    line-height:30px;
+    padding-bottom:15px;
+}
+
+.space-free {
+    height:100px;
+}
+
+section {
+    padding-top:50px;
+    margin-top:50px;
+}
+.g-pad-bottom {
+    padding-bottom:30px;
+}
+
+.form-control {
+        background-color: rgba(255, 255, 255, 0);
+}
+
+.label-danger {
+font-size: 18px;
+}
+/*=======================================
+    HOME SECTION STYLES
+==================================================*/
+
+.go-marg {
+    margin-top:40px;
+}
+
+#home-sec { 
+  
+    
+background: url(../img/top.jpeg) no-repeat 50% 50%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+ padding-top:190px;
+   min-height:650px;
+    color:#fff;
+}
+
+.head-main {
+    font-size:50px ;
+    font-weight:900;
+    border:5px outset  #fff;
+    padding:15px;
+    text-transform:uppercase;
+    
+}
+
+.head-last {
+     margin-top:70px;
+    font-size:18px ;
+    font-weight:900;
+    padding:5px 20px 20px 20px;
+    border:1px dotted #fff;
+    padding:5px;
+}
+
+
+/* ===========================================================
+   NAVBAR CHANGES   
+   ============================================================*/
+.navbar {
+	font-size: 18px;
+}
+
+.navbar-inverse {
+background: #fff;
+min-height: 60px;
+padding-top: 5px;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #000;
+	font-weight: bolder;
+	font-size: 25px;
+    font-weight:900;
+	letter-spacing: 2px;
+}
+.navbar-inverse :hover .navbar-brand:hover {
+	color: #000;	
+}
+.navbar-inverse .navbar-nav > li > a {
+color: #000;
+}
+.navbar-inverse {
+border-color: #D6D6D6;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: #000;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+color: #000;
+}
+.navbar-toggle {
+    background-color: black;
+}
+/*==========================================
+    PORTFOLIO STYLES
+    =====================================================*/
+
+
+.portfolio-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.portfolio-items {
+  margin-right: -20px;
+}
+.portfolio-items > li {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-items.col-3 > li {
+  width: 33%;
+}
+
+.portfolio-item .item-main {
+  margin: 0 10px 10px 0;
+  text-align: center;
+  background: #fff;
+  padding: 10px;
+  border:1px solid #E8EAEE;
+  
+}
+.portfolio-item img {
+  width: 100%;
+}
+.portfolio-item .portfolio-image {
+  position: relative;
+}
+.portfolio-item h5 {
+  margin: 0;
+  padding: 10px 0 10px 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  background-color: #E91C1C;
+color: #fff;
+}
+.portfolio-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: opacity 300ms;
+  -moz-transition: opacity 300ms;
+  -o-transition: opacity 300ms;
+  transition: opacity 300ms;
+}
+.portfolio-item .overlay .preview {
+  position: relative;
+  top: 50%;
+  display: inline-block;
+  margin-top: -20px;
+}
+.portfolio-item:hover .overlay {
+  opacity: 1;
+}
+
+/*=======================================
+    Contact STYLES
+==================================================*/
+
+.cnt {
+width: 100%;
+min-height: 350px;
+border: 1px solid #e1e1e1;
+}
+/*=======================================
+    FOOTER STYLES
+==================================================*/
+
+
+#footer {
+background-color: #FFFFFF;
+color: #000;
+padding: 20px 50px 20px 50px;
+text-align: right;
+border-top: 1px solid #d6d6d6;
+}
+
+
+/*=======================================
+    MEDIA QUERIES
+    
+    ==================================================*/
+
+@media all and (max-width:640px) and (min-width:381px) {
+    .head-main { 
+        font-size:28px ;
+    }
+}
+@media all and (max-width:381px) and (min-width:200px) {
+    .head-main { 
+        font-size:24px ;
+    }
+}
+
+
+#content form { margin: 0 20px; position: relative }
+#content form input[type="text"],
+#content form input[type="password"] {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+  -moz-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+  -ms-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+  -o-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+  box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background: #eae7e7 url(http://cssdeck.com/uploads/media/items/8/8bcLQqF.png) no-repeat;
+  border: 1px solid #c8c8c8;
+  color: #777;
+  font: 13px Helvetica, Arial, sans-serif;
+  margin: 0 0 10px;
+  padding: 15px 10px 15px 40px;
+  width: 80%;
+}
+#content form input[type="text"]:focus,
+#content form input[type="password"]:focus {
+  -webkit-box-shadow: 0 0 2px #ed1c24 inset;
+  -moz-box-shadow: 0 0 2px #ed1c24 inset;
+  -ms-box-shadow: 0 0 2px #ed1c24 inset;
+  -o-box-shadow: 0 0 2px #ed1c24 inset;
+  box-shadow: 0 0 2px #ed1c24 inset;
+  background-color: #fff;
+  border: 1px solid #ed1c24;
+  outline: none;
+}
+#username { background-position: 10px 10px !important }
+#password { background-position: 10px -53px !important }
+#content form input[type="submit"] {
+  background: rgb(254,231,154);
+  background: -moz-linear-gradient(top,  rgba(254,231,154,1) 0%, rgba(254,193,81,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+  background: -o-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+  background: -ms-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+  background: linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee79a', endColorstr='#fec151',GradientType=0 );
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+  -ms-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+  -o-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+  border: 1px solid #D69E31;
+  color: #85592e;
+  cursor: pointer;
+  float: left;
+  font: bold 15px Helvetica, Arial, sans-serif;
+  height: 35px;
+  margin: 20px 0 35px 15px;
+  position: relative;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  width: 120px;
+}
+#content form input[type="submit"]:hover {
+  background: rgb(254,193,81);
+  background: -moz-linear-gradient(top,  rgba(254,193,81,1) 0%, rgba(254,231,154,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+  background: -o-linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+  background: -ms-linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+  background: linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fec151', endColorstr='#fee79a',GradientType=0 );
+}
+#content form div a {
+  color: #004a80;
+    float: right;
+    font-size: 12px;
+    margin: 30px 15px 0 0;
+    text-decoration: underline;
+}
+.button {
+  background: rgb(247,249,250);
+  background: -moz-linear-gradient(top,  rgba(247,249,250,1) 0%, rgba(240,240,240,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(247,249,250,1) 0%,rgba(240,240,240,1) 100%);
+  background: -o-linear-gradient(top,  rgba(247,249,250,1) 0%,rgba(240,240,240,1) 100%);
+  background: -ms-linear-gradient(top,  rgba(247,249,250,1) 0%,rgba(240,240,240,1) 100%);
+  background: linear-gradient(top,  rgba(247,249,250,1) 0%,rgba(240,240,240,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f9fa', endColorstr='#f0f0f0',GradientType=0 );
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.1) inset;
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.1) inset;
+  -ms-box-shadow: 0 1px 2px rgba(0,0,0,0.1) inset;
+  -o-box-shadow: 0 1px 2px rgba(0,0,0,0.1) inset;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1) inset;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  -o-border-radius: 0 0 5px 5px;
+  -ms-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+  border-top: 1px solid #CFD5D9;
+  padding: 15px 0;
+}
+ .panel-body1{
+  height:300px;
+  background-image: url(../../decimg/abc.jpg);
+  background-size: cover;
+ }
+ .panel-body2{
+  height:300px;
+  background-image: url(../../decimg/mardi.jpg);
+  background-size: cover;
+ }
+.panel-body3{
+  height:300px;
+  background-image: url(../../decimg/poonhill.jpg);
+  background-size: cover;
+ }
+ .panel-body4{
+  height:300px;
+  background-image: url(../../decimg/ghandruk.jpeg);
+  background-size: cover;
+ }
+ .panel-body5{
+  height:300px;
+  background-image: url(../../decimg/tilicho.jpg);
+  background-size: cover;
+ }
+.panel-body6{
+  height:300px;
+  background-image: url(../../decimg/mustang.jpg);
+  background-size: cover;
+
+ }
+ strong{
+  font-weight:700;
+  font-size: 20px;
+ }
